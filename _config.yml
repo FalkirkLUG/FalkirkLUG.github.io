@@ -16,6 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://falkirklug.github.io" # the base hostname & protocol for your site
 twitter_username: gwmngilfen
 github_username:  FalkirkLUG
+gplus_url: https://plus.google.com/b/115476628113417487323/115476628113417487323/about
 
 # Build settings
 markdown: kramdown
