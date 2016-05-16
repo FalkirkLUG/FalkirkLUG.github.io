@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        <h1 class="page-heading">Previous Talks (newest first)</h1>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+        <ul class="post-list">
+          {% assign sorted = site.data.talks | sort:"date" | reverse %}
+          {% for talk in sorted %}
+          <li>
+            <span class="post-content">
+              <h3 class="post-content">
+                {{ talk.date | date: "%b %-d, %Y" }} - {{ talk.speaker }} - {{ talk.title }}
+              </h3>
+              <p class="post-content"> {{ talk.description }}</p>
+            </span>
+
+          </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
