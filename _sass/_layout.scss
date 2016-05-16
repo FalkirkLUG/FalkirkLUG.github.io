@@ -240,3 +240,20 @@
         }
     }
 }
+
+.floatonelineleft {
+  width: 50%;
+  float: left;
+}
+.floatonelinecenter {
+  width: 5%;
+  float: left;
+}
+.floatonelineright {
+  width: 35%;
+  float: left;
+}
+.pageHolder {
+  overflow: auto;
+  width: 100%;
+}
