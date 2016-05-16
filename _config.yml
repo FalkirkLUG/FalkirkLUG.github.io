@@ -16,5 +16,8 @@ latitude: 56.0008123
 longitude: -3.783533
 zoom: 17
 
+# Google Analytics
+google_analytics_tracking_id: 'UA-43713039-2'
+
 # Build settings
 markdown: kramdown
