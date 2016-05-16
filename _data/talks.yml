@@ -1,10 +1,11 @@
 - speaker: 'Jonathan Riddell'
-  title:   'KDE Neon, a rapidly evolving software repository'
+  title:   'KDE Neon'
   date: 2016-05-03
   description: |
-    Jonathan Riddell will be coming along to talk to us about the
-    new KDE Neon project, which aims to put the latest and greatest builds of
-    KDE into the hands of it's users with the minimum amount of overhead.
+    Jonathan Riddell will be coming along to talk to us about the new KDE Neon
+    project, a rapidly evolving software repository which aims to put the
+    latest and greatest builds of KDE into the hands of it's users with the
+    minimum amount of overhead.
 - speaker: 'Rab McLay'
   title:   'Vulnerable VMs'
   date: 2016-06-07

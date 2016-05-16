@@ -14,12 +14,10 @@
       </a>
 
       <div>
-        <a class='info-head'>Next Talk |</a>
-
         {% assign talk = site.data.talks | last %}
         {% assign date = talk.date | date: '%b %e' %}
-
-				<a class='info-text'>{{ talk.speaker }} - {{ talk.title }} - {{ date }}</a>
+        <a class='info-text' href='/talks'>Next Talk |
+				{{ talk.speaker }} - {{ talk.title }} - {{ date }}</a>
       </div>
 
       <div class="trigger">
