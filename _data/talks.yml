@@ -36,3 +36,9 @@
     cloud data platform, Nextcloud. We'll be installing NC live on a RasPi,
     configuring it, testing it and adding plugins to it. Not just a hypefest -
     discussion on pitfalls and drawbacks included!
+- speaker: 'Rob Lazzurs'
+  title:   'Open Sourcing Government'
+  date: 2016-10-04
+  description: |
+    This month we welcome back an old friend - Rob Lazzurs will be giving us a
+    talk on his work on open source within the UK government.
